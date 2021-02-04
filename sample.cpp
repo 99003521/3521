@@ -21,6 +21,4 @@ int main(){
     cout << subnum(a,b) << endl;
     cout << mulnum(a,b) << endl;
     cout << divnum(a,b) << endl;
-
-    
 }
