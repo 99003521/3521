@@ -10,7 +10,7 @@ int subnum(int a, int b){
 int mulnum(int a, int b){
     return a*b;
 }
-int divnum(int a, int b){
+int divnum(double a, double b){
     return double (a/b);
 }
 /**
@@ -19,8 +19,8 @@ int divnum(int a, int b){
  * @return int 
  */
 int main(){
-    int a,b;
-    cin >>a>>b;
+    int a=5,b=4;
+    
     cout << addnum(a,b) << endl;
     cout << subnum(a,b) << endl;
     cout << mulnum(a,b) << endl;
