@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+/**
+ * @brief Arithmatic functions
+ * 
+ * @param a variable 
+ * @param b variable
+ * @return int datatype
+ */
 int addnum(int a, int b){
     return a+b;
 }
@@ -14,9 +21,9 @@ int divnum(double a, double b){
     return double (a/b);
 }
 /**
- * @brief 
+ * @brief main1 function
  * 
- * @return int 
+ * @return int returntype
  */
 int main1(){
     int a=5,b=4;
