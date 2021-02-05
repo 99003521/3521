@@ -11,9 +11,9 @@ TEST(Claculator, AddCheck){
      * @brief creating test inputs for different values
      * 
      */
-    EXPECT_EQ(7,addnum(3,4));
-    EXPECT_EQ(8,addnum(6,2));
-    EXPECT_EQ(17,addnum(10,7));
+    EXPECT_EQ(0,addnum(0,0));
+    EXPECT_EQ(10,addnum(4,6));
+    EXPECT_EQ(-20,addnum(-30,10));
 }
 
 TEST(Claculator, SubCheck){ 
