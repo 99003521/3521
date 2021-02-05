@@ -1,4 +1,4 @@
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "calculator.h"
 
 namespace{
@@ -24,5 +24,10 @@ TEST(Claculator, DivCheck){
     EXPECT_EQ(0.5,divnum(3,6));
     EXPECT_EQ(0.8,divnum(4,5));
     EXPECT_EQ(2,divnum(10,5));
+}
+int main(int argc, char**argv){
+    testing::InitGoogleTest(&argc,argv);
+    return RUN_ALL_TESTS();
+
 }
 }
